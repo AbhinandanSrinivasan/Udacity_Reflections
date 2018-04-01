@@ -1,1 +1,10 @@
+Git Commands:
 
+Git Diff : Can be used to compare 2 commits (Format: git diff commit1 commit2)
+Git show commitID (This is used to compare a commit against its parent, i.e just the changes introduced in that commit)
+Git log --stat : Displays stats with all commits
+Git clone <Url> 
+Git log --graph --oneline branch 1 branch2 branch 3 ….
+Git merge master branch1 (To merge 2 branches)
+Git branch -d branchName (will delete the branch, note this will not delete the commits in the branch but only the label)
+Git push Remote_repository_name Local_Branch_name
